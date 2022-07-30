@@ -1,0 +1,16 @@
+// pour compiler le sass :
+// se place dans le dossier ou se situe le fichier sass
+// et entrer la commande sass styles.scss:styles.css par exemple
+
+$pink: #C69;
+
+$font-family-text: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-size-big: 2rem;
+
+
+h1{
+    font-family: $font-family-text;
+    font-size: $font-size-big;
+    color: $pink;
+}

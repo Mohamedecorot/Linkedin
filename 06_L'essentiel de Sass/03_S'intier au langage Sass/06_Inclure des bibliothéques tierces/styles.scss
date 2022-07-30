@@ -1,0 +1,13 @@
+// commentaire qui va disparaitre à la compilation
+/* commentaire qui peut disparaitre à la compilation*/
+/*! commentaire qui va rester après la compilation*/
+
+@import "scss/variables";
+@import "scss/normalize/normalize";
+@import "scss/font-awesome/font-awesome";
+
+@import "scss/main";
+@import "scss/header";
+@import "scss/nav";
+@import "scss/mainContent";
+@import "scss/footer";
