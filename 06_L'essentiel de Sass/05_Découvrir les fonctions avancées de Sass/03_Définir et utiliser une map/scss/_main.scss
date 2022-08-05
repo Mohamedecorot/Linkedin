@@ -1,0 +1,26 @@
+body{
+    padding: 20px 0;
+    background:{
+        color: $light-grey;
+        image: url('css-27192.svg');
+        attachment: fixed;
+    }//end background
+
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba($white, 0.8);
+    border: solid 3px $green;
+
+    @each $breakpoint, $value in $breakpoints{
+        @media screen and (min-width: $value) {
+            max-width: $value;
+        }
+    }
+}
+%listReset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
